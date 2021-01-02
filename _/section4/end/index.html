@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>HTML5 Canvas</title>
+<meta name="keywords" content="responsive design, css3">
+<meta name="description" content="Web Visualization with HTML5, CSS3 and JavaScript">
+<meta name="viewport" content="width=device-width; initial-scale:1" >
+<link rel="stylesheet" href="css/style.css">
+<script src="js/script.js"></script>
+</head>
+<body>
+    	<div class="article">
+                
+                <h1>Web Visualization</h1>
+                <div class="info">
+	                <ul>
+	                	<li id="talk"><span>with HTML5, CSS3 and JavaScript</span></li>
+	                </ul>
+	              </div>
+	              <div id='canvasWrapper'>
+	              	<div class="my3dObject">
+	              		<div class="front">
+	              			<canvas id="myCanvas">
+	              					You need...
+	              			</canvas>
+	              		</div>
+	              		<div class="back">
+	              			<!--img src="img/sample.svg" /-->
+	              			<svg>
+	              			<polygon points="100,10 40,180 190,60 10,60 160,180" style="fill:#F3DC1A" transform="translate(360,20) rotate(5)">
+	              				<animateTransform attributeType="XML"
+	              								 attributeName="transform"
+	              								 type="rotate"
+	              								 from="0 360 20" to="360 360 20"
+	              								 dur="2s"
+	              								 repeatCount="indefinite"/>
+	              			</polygon>
+	              			<text x="50" y="50" fill="black" transform="translate(400,30)">My name is Ben.
+	              				<animate attributeType="XML"
+	              								 attributeName="x"
+	              								 from="-500" to="0"
+	              								 dur="2s"
+	              								 repeatCount="2"/>
+	              			</text>
+	              		</svg>
+	              		</div>
+	              	</div>
+	            	</div>
+	              <h2>References:</h2>
+	              <ul style="text-align:left;">
+	              <li><a href="http://02geek.com/books/html5-graphics-and-data-visualization-cookbook.html" target='_blank'>HTML5 Graphics and Data Visualization Cookbook</a></li>
+	             	<li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API" target='_blank'>HTML5 Canvas API Documentation</a></li>
+	             
+	             	<li><a href="http://blog.everythingfla.com/contact" target='_blank'>Got a question? feel free to contact me. </a></li>
+	              </ul>
+	              <p>To learn more about this course visit my site <a href="http://02geek.com/" target="_blank">02GEEK</a>.</p>
+        </div>
+        
+    	<div class="footer">
+			<a class="everything" href="http://02geek.com/"></a>
+        	<span>nice</span><span>everything</span>
+        </div>
+    <script> init();</script>
+</body>
+
+
+
+</html>

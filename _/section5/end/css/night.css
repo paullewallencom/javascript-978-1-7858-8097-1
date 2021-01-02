@@ -1,0 +1,11 @@
+body {
+	background:#000000;
+	background-image:linear-gradient(to right, #000000,#353535);
+	color:#96CA2D; 
+}
+
+.article {background:#353535;}
+
+.footer {	background:rgba(26, 26, 26, .9); }
+
+
